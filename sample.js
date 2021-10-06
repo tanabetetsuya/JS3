@@ -5,13 +5,7 @@ console.log(nickname);
 
 var str = "webcamp" //グローバルスコープ
 
-function foo(){
-  console.log(str);
-  let x = "webcamp"
-  {
-    let y = "hello webcamp"
-  }
-  console.log(x);
-  console.log(y);
+for(let i=0; i<10; i++){
+  console.log(i)
 }
-foo()
+  console.log(i)
